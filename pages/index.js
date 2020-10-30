@@ -1,7 +1,7 @@
 import styled from 'styled-components';
 import Link from 'next/link'
 
-export default Index = () => (
+export default Navigation = () => (
   <div>
     <Title>React + Styled components</Title>
 
