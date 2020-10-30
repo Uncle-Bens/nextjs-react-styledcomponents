@@ -29,7 +29,7 @@ const Users = ({ users, error, randomId }) => {
         <h1>List of users</h1>
       </header>
       <h2>id: {randomId}</h2>
-      <p>With getStaticProps you don't have to stop relying on dynamic content, as static content can also be dynamic. Incremental Static Regeneration allows you to update existing pages by re-rendering them in the background as traffic comes in.</p>
+      <h3>With getStaticProps you don't have to stop relying on dynamic content, as static content can also be dynamic. Incremental Static Regeneration allows you to update existing pages by re-rendering them in the background as traffic comes in.</h3>
       {error && <div>There was an error.</div>}
       {!error && users && (
         <table>

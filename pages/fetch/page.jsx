@@ -28,6 +28,7 @@ const Users = () => {
       <header>
         <h1>List of users</h1>
       </header>
+      <h3>React with async fetching data</h3>
       {!error && loading && <div>Loading data...</div>}
       {error && <div>There was an error.</div>}
       {!error && users && (

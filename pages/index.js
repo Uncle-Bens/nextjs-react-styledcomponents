@@ -2,7 +2,7 @@ import styled from 'styled-components';
 
 export default () => (
   <div>
-    <Title>My First Next.js Page</Title>
+    <Title>React + Styled components</Title>
   </div>
 );
 

@@ -17,6 +17,7 @@ const Users = ({ users, error }) => {
       <header>
         <h1>List of users</h1>
       </header>
+      <h3>Server-side Rendering, the page HTML is generated on each request.</h3>
       {error && <div>There was an error.</div>}
       {!error && users && (
         <table>
