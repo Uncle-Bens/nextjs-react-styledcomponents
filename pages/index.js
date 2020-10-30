@@ -17,13 +17,13 @@ export default Index = () => (
         </Link>
       </li>
       <li>
-        <Link href="/static-props/page">
-          <a>Static Props</a>
+        <Link href="/server-side/page">
+          <a>Server Side</a>
         </Link>
       </li>
       <li>
-        <Link href="/server-side/page">
-          <a>Server Side</a>
+        <Link href="/static-props/page">
+          <a>Static Props</a>
         </Link>
       </li>
     </ul>
