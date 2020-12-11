@@ -26,6 +26,11 @@ export default () => (
           <a>Static Props</a>
         </Link>
       </li>
+      <li>
+        <Link href="/group/id">
+          <a>Dynamic</a>
+        </Link>
+      </li>
     </ul>
   </div>
 );
